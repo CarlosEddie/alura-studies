@@ -3,7 +3,7 @@
   grid-template-rows: min-content min-content auto;
   grid-template-areas: 
   "new-task"
-  "timer"
+  "stopwatch"
   "tasks"
   ;
   row-gap: 24px;
@@ -18,7 +18,7 @@
   @media screen and (min-width:1280px)  {
     grid-template-areas: 
     "new-task tasks"
-    "timer tasks"
+    "stopwatch tasks"
     ;
     column-gap: 64px;
     grid-template-rows: min-content min-content;
